@@ -1,0 +1,6 @@
+---
+- name: Start the Docker daemon at boot
+  service:
+    name: docker
+    enabled: True
+    runlevel: "boot"
