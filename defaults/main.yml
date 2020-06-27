@@ -68,3 +68,8 @@ docker_remove_packages_apt:
   - docker
   - docker-engine
   - docker.io
+
+# Can be coredns, coredns_dual, manual or none
+dns_mode: none
+# Can be docker_dns, host_resolvconf or none
+resolvconf_mode: host_resolvconf
